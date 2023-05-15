@@ -127,7 +127,7 @@ SINK=$(cat <<-END
     "use_sdp": true,
     "source": "http://127.0.0.1:8080/api/source/sdp/0",
     "sdp": "v=0\no=- 657152 657153 IN IP4 127.0.0.1\ns=ALSA Source ID\nc=IN IP4 239.1.0.ADDR/15\nt=0 0\na=clock-domain:PTPv2 0\nm=audio 5004 RTP/AVP 98\nc=IN IP4 239.1.0.ADDR/15\na=rtpmap:98 CODEC/SR/2\na=sync-time:0\na=framecount:48\na=ptime:PTIME\na=mediaclk:direct=0\na=ts-refclk:ptp=IEEE1588-2008:00-00-00-00-00-00-00-00:0\na=recvonly\n",
-    "delay": 576,
+    "delay": 48,
     "ignore_refclk_gmid": true,
     "map": [ MS, ME ]
   }
